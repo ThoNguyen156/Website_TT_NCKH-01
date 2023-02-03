@@ -193,6 +193,33 @@ function Arena() {
                             </ul>
                         </div>
                     </div>
+                    <ul className={cx('Arena-stadium-pagination')}>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>
+                                    <FaAngleLeft/>
+                                </a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>1</a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>2</a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>3</a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>4</a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>5</a>
+                            </li>
+                            <li className={cx('Arena-pagination-item')}>
+                                <a href="" className={cx('Arena-pagination-link')}>
+                                    <FaAngleRight/>
+                                </a>
+                            </li>
+                    </ul>                        
                 </div>
             </div>
         </div>
